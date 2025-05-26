@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAC004 Mathematics I: Fundamentals - Exam (Detailed)</title>
+    <title>GAC004 Mathematics I: Fundamentals - Exam</title>
     <style>
         body {
             font-family: sans-serif;
@@ -93,7 +93,6 @@
             white-space: pre-wrap; /* Wrap long lines */
             word-wrap: break-word; /* Break words if necessary */
             font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-            font-size: 0.9em;
         }
          /* Specific styling for subpart labels */
         .question-subpart .problem-statement::before {
@@ -104,14 +103,6 @@
          .question-part {
              counter-reset: subpart; /* Reset subpart counter for each part */
          }
-         img {
-             max-width: 100%;
-             height: auto;
-             margin-top: 10px;
-             border: 1px solid #ddd;
-             padding: 5px;
-             background-color: #fff;
-         }
     </style>
 </head>
 <body>
@@ -119,7 +110,7 @@
         <header>
             <p>GAC004 Mathematics I: Fundamentals</p>
             <p>Assessment Folder</p>
-            <h1>Assessment Event 2: Examination</h1>
+            <h1>Assessment Event 3: Examination</h1>
             <p>[100 marks]</p>
             <p>Name: _________________________ Date: _________________________</p>
             <p>Student No: _________________________</p>
@@ -144,29 +135,19 @@
                      <div class="problem-statement">f(5)</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-f(x) = x² - 6x + 8
-Substitute x = 5
-f(5) = (5)² - 6 * (5) + 8
-Calculate (5)²: 5 * 5 = 25
-Calculate 6 * 5: 30
-f(5) = 25 - 30 + 8
-Calculate 25 - 30: -5
-f(5) = -5 + 8
-Calculate -5 + 8: 3
-f(5) = 3
+5² - 6(5) + 8
+25 - 30 + 8
+-5 + 8
+3
                      </pre></div>
                 </div>
                  <div class="question-subpart">
                      <div class="problem-statement">f(a + h)</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-f(x) = x² - 6x + 8
-Substitute x = (a + h)
-f(a + h) = (a + h)² - 6 * (a + h) + 8
-Expand (a + h)²: (a + h) * (a + h) = a*a + a*h + h*a + h*h = a² + ah + ah + h² = a² + 2ah + h²
-Distribute -6: -6 * (a + h) = -6*a + (-6)*h = -6a - 6h
-f(a + h) = (a² + 2ah + h²) - (6a + 6h) + 8
-f(a + h) = a² + 2ah + h² - 6a - 6h + 8
+(a + h)² - 6(a + h) + 8
+a² + 2ah + h² - 6a - 6h + 8
+a² + 2ah + h² - 6a - 6h + 8
                      </pre></div>
                 </div>
             </div>
@@ -177,20 +158,11 @@ f(a + h) = a² + 2ah + h² - 6a - 6h + 8
                     <div class="problem-statement">vertex</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Equation is y = x² - 6x + 8
-This is in the form y = ax² + bx + c, where a=1, b=-6, c=8.
-x-coordinate of vertex = -b / (2a)
-x-coordinate = -(-6) / (2 * 1)
-x-coordinate = 6 / 2
-x-coordinate = 3
-Substitute x = 3 into the equation for y:
-y = (3)² - 6 * (3) + 8
-Calculate (3)²: 3 * 3 = 9
-Calculate 6 * 3: 18
+x = -(-6) / (2 * 1)
+x = 6 / 2
+x = 3
+y = (3)² - 6(3) + 8
 y = 9 - 18 + 8
-Calculate 9 - 18: -9
-y = -9 + 8
-Calculate -9 + 8: -1
 y = -1
 Vertex: (3, -1)
                     </pre></div>
@@ -199,58 +171,16 @@ Vertex: (3, -1)
                     <div class="problem-statement">axis of symmetry and turning point</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-The axis of symmetry is a vertical line through the vertex.
-x-coordinate of vertex is 3.
-Axis of symmetry equation: x = 3
-The turning point is the vertex itself for a parabola.
-Turning point coordinates: (3, -1)
-                    </pre></div>
-                </div>
-                <div class="question-subpart">
-                    <div class="problem-statement">y-intercept</div>
-                     <button class="toggle-procedure">Show Procedure</button>
-                     <div class="procedure"><pre>
-To find the y-intercept, set x = 0 in the equation y = x² - 6x + 8.
-y = (0)² - 6 * (0) + 8
-Calculate (0)²: 0 * 0 = 0
-Calculate 6 * 0: 0
-y = 0 - 0 + 8
-y = 8
-y-intercept: (0, 8)
-                    </pre></div>
-                </div>
-                <div class="question-subpart">
-                    <div class="problem-statement">x-intercept(s)</div>
-                     <button class="toggle-procedure">Show Procedure</button>
-                     <div class="procedure"><pre>
-To find the x-intercept(s), set y = 0 in the equation y = x² - 6x + 8.
-0 = x² - 6x + 8
-We need to solve the quadratic equation x² - 6x + 8 = 0 for x.
-We can try factoring the quadratic. We look for two numbers that multiply to 8 and add up to -6.
-The numbers are -2 and -4 because (-2) * (-4) = 8 and (-2) + (-4) = -6.
-So, the quadratic factors as (x - 2)(x - 4).
-The equation becomes: (x - 2)(x - 4) = 0
-For the product of two factors to be zero, at least one of the factors must be zero.
-Case 1: x - 2 = 0
-Add 2 to both sides: x - 2 + 2 = 0 + 2
-x = 2
-Case 2: x - 4 = 0
-Add 4 to both sides: x - 4 + 4 = 0 + 4
-x = 4
-The x-intercepts are at x = 2 and x = 4.
-x-intercepts: (2, 0) and (4, 0)
+Axis of symmetry: x = 3
+Turning point: (3, -1)
                     </pre></div>
                 </div>
                  <div class="question-subpart">
                     <div class="problem-statement">domain and range</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-The domain of a standard quadratic function (parabola) is all real numbers.
-Domain: (-∞, ∞) or {x | x ∈ ℝ}
-Since the coefficient of x² (a=1) is positive, the parabola opens upwards.
-The minimum y-value is the y-coordinate of the vertex, which is -1.
-The range includes all y-values from the minimum value upwards.
-Range: [-1, ∞) or {y | y ≥ -1}
+Domain: All real numbers
+Range: y ≥ -1
                     </pre></div>
                 </div>
             </div>
@@ -259,27 +189,13 @@ Range: [-1, ∞) or {y | y ≥ -1}
                  <div class="problem-statement">(c.) Sketch the graph of y = √64 – x² on the number plane. [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Equation: y = √64 - x²
-To analyze, square both sides:
-y² = (√64 - x²)²
 y² = 64 - x²
-Add x² to both sides:
 x² + y² = 64
-This is the standard equation of a circle centered at the origin (0,0) with radius r, where r² = 64.
-Find the radius: r = √64 = 8
-The original equation is y = √..., which means y must be non-negative (y ≥ 0).
-So, the graph is the part of the circle x² + y² = 64 where y ≥ 0.
-This is the upper semi-circle of radius 8 centered at (0,0).
-Domain: The values of x for which 64 - x² is non-negative.
-64 - x² ≥ 0
-64 ≥ x²
-x² ≤ 64
-Take the square root of both sides: √x² ≤ √64
-|x| ≤ 8
--8 ≤ x ≤ 8
-Domain: [-8, 8]
-Range: The values of y are from the minimum value (0) to the maximum value (radius 8).
-Range: [0, 8]
+Center: (0, 0)
+Radius: √64 = 8
+y ≥ 0 (Upper semi-circle)
+Domain: -8 ≤ x ≤ 8
+Range: 0 ≤ y ≤ 8
                  </pre></div>
             </div>
         </section>
@@ -292,60 +208,28 @@ Range: [0, 8]
                     <div class="problem-statement">Find the distance of the point (4, –2) from the midpoint of the line joining (–5, 3) and (7, 5).</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Points for midpoint: P1(-5, 3), P2(7, 5)
-Midpoint M = ((x1 + x2)/2, (y1 + y2)/2)
-Midpoint x-coordinate = (-5 + 7) / 2
-Calculate -5 + 7: 2
-Midpoint x-coordinate = 2 / 2
-Calculate 2 / 2: 1
-Midpoint x-coordinate = 1
-Midpoint y-coordinate = (3 + 5) / 2
-Calculate 3 + 5: 8
-Midpoint y-coordinate = 8 / 2
-Calculate 8 / 2: 4
-Midpoint y-coordinate = 4
-Midpoint M: (1, 4)
-
-Points for distance: A(4, -2), M(1, 4)
-Distance D = √((x_M - x_A)² + (y_M - y_A)²)
-Distance D = √((1 - 4)² + (4 - (-2))²)
-Calculate (1 - 4): -3
-Calculate (4 - (-2)): 4 + 2 = 6
-Distance D = √((-3)² + (6)²)
-Calculate (-3)²: (-3) * (-3) = 9
-Calculate (6)²: 6 * 6 = 36
-Distance D = √(9 + 36)
-Calculate 9 + 36: 45
-Distance D = √45
-Simplify the radical √45: √45 = √(9 * 5)
-√45 = √9 * √5
-√45 = 3 * √5
-Distance D = 3√5
+Midpoint: ((-5 + 7)/2, (3 + 5)/2)
+Midpoint: (2/2, 8/2)
+Midpoint: (1, 4)
+Distance: √((1 - 4)² + (4 - (-2))²)
+Distance: √((-3)² + (4 + 2)²)
+Distance: √((-3)² + (6)²)
+Distance: √(9 + 36)
+Distance: √45
+Distance: 3√5
                     </pre></div>
                 </div>
                 <div class="question-subpart">
                     <div class="problem-statement">Find the equation of the line from the midpoint you found in (i.) to the point (3, -2). [4 marks]</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Point 1 (Midpoint): (1, 4)
-Point 2: (3, -2)
-Find the slope m = (y2 - y1) / (x2 - x1)
-m = (-2 - 4) / (3 - 1)
-Calculate -2 - 4: -6
-Calculate 3 - 1: 2
-m = -6 / 2
-Calculate -6 / 2: -3
-m = -3
-
-Use the point-slope form: y - y1 = m(x - x1)
-Using point (1, 4):
-y - 4 = -3 * (x - 1)
-Distribute -3: -3 * (x - 1) = -3*x -3*(-1) = -3x + 3
-y - 4 = -3x + 3
-Add 4 to both sides:
-y - 4 + 4 = -3x + 3 + 4
-y = -3x + 7
-Equation of the line: y = -3x + 7
+Points: (1, 4), (3, -2)
+Slope: (-2 - 4) / (3 - 1)
+Slope: -6 / 2
+Slope: -3
+Equation: y - 4 = -3(x - 1)
+Equation: y - 4 = -3x + 3
+Equation: y = -3x + 7
                     </pre></div>
                 </div>
             </div>
@@ -354,27 +238,15 @@ Equation of the line: y = -3x + 7
                  <div class="problem-statement">(b.) Prove that the points (1, –15), (6, 10) and (4, 0) are collinear. [3 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Points: P1(1, -15), P2(6, 10), P3(4, 0)
-Calculate the slope between P1 and P2: m12 = (y2 - y1) / (x2 - x1)
-m12 = (10 - (-15)) / (6 - 1)
-Calculate 10 - (-15): 10 + 15 = 25
-Calculate 6 - 1: 5
-m12 = 25 / 5
-Calculate 25 / 5: 5
-m12 = 5
-
-Calculate the slope between P2 and P3: m23 = (y3 - y2) / (x3 - x2)
-m23 = (0 - 10) / (4 - 6)
-Calculate 0 - 10: -10
-Calculate 4 - 6: -2
-m23 = -10 / -2
-Calculate -10 / -2: 5
-m23 = 5
-
-Compare the slopes: m12 = 5 and m23 = 5
-Since m12 = m23, the slope between P1 and P2 is equal to the slope between P2 and P3.
-This means the three points lie on the same straight line.
-Therefore, the points (1, -15), (6, 10), and (4, 0) are collinear.
+P1=(1, -15), P2=(6, 10), P3=(4, 0)
+Slope P1P2: (10 - (-15)) / (6 - 1)
+Slope P1P2: (10 + 15) / 5
+Slope P1P2: 25 / 5
+Slope P1P2: 5
+Slope P2P3: (0 - 10) / (4 - 6)
+Slope P2P3: -10 / -2
+Slope P2P3: 5
+Slopes are equal (5). Points are collinear.
                  </pre></div>
             </div>
 
@@ -382,40 +254,15 @@ Therefore, the points (1, -15), (6, 10), and (4, 0) are collinear.
                  <div class="problem-statement">(c.) Find the perpendicular distance from the point (–1, 3) to the line with equation 2y - 4x + 10 = 0. [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Line equation: 2y - 4x + 10 = 0
-Rewrite in standard form Ax + By + C = 0:
--4x + 2y + 10 = 0
-Comparing to Ax + By + C = 0: A = -4, B = 2, C = 10
-Point: (x0, y0) = (-1, 3)
-Perpendicular distance formula: D = |Ax0 + By0 + C| / √(A² + B²)
-Substitute values:
-Numerator: Ax0 + By0 + C = (-4) * (-1) + (2) * (3) + 10
-Calculate (-4) * (-1): 4
-Calculate (2) * (3): 6
-Numerator = 4 + 6 + 10
-Calculate 4 + 6: 10
-Numerator = 10 + 10
-Calculate 10 + 10: 20
-Numerator = |20| = 20
-
-Denominator: √(A² + B²) = √((-4)² + (2)²)
-Calculate (-4)²: (-4) * (-4) = 16
-Calculate (2)²: 2 * 2 = 4
-Denominator = √(16 + 4)
-Calculate 16 + 4: 20
-Denominator = √20
-
-Distance D = 20 / √20
-Rationalize the denominator: Multiply numerator and denominator by √20
-D = (20 / √20) * (√20 / √20)
-D = (20 * √20) / (√20 * √20)
-D = 20√20 / 20
-Cancel 20:
-D = √20
-Simplify the radical √20: √20 = √(4 * 5)
-√20 = √4 * √5
-√20 = 2 * √5
-Distance D = 2√5
+Line: -4x + 2y + 10 = 0 (A=-4, B=2, C=10)
+Point: (-1, 3) (x0=-1, y0=3)
+Distance: |Ax0 + By0 + C| / √(A² + B²)
+Distance: |(-4)(-1) + (2)(3) + 10| / √((-4)² + 2²)
+Distance: |4 + 6 + 10| / √(16 + 4)
+Distance: |20| / √20
+Distance: 20 / √20
+Distance: √20
+Distance: 2√5
                  </pre></div>
             </div>
         </section>
@@ -428,71 +275,31 @@ Distance D = 2√5
                     <div class="problem-statement">y = loge(2x) - 2 [2 marks]</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Function: y = ln(2x) - 2
-Domain: The argument of ln must be positive.
-2x > 0
-Divide by 2: x > 0
-Domain: (0, ∞)
-Vertical Asymptote occurs where the argument approaches 0 from the right.
-Vertical Asymptote: x = 0 (the y-axis)
-
-x-intercept (Set y = 0):
+Vertical Asymptote: x = 0
+x-intercept (y=0):
 0 = ln(2x) - 2
-Add 2 to both sides:
-0 + 2 = ln(2x) - 2 + 2
 2 = ln(2x)
-Convert from logarithm form to exponential form: ln(a) = b is equivalent to e^b = a
-Here a = 2x, b = 2.
 e² = 2x
-Divide both sides by 2:
-e² / 2 = 2x / 2
-e² / 2 = x
-x-intercept: (e²/2, 0)
-
-y-intercept (Set x = 0):
-y = ln(2 * 0) - 2
-y = ln(0) - 2
-ln(0) is undefined. There is no y-intercept.
+x = e²/2
                     </pre></div>
                 </div>
                  <div class="question-subpart">
                     <div class="problem-statement">y = 2e²ˣ - 4 [2 marks]</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Function: y = 2e²ˣ - 4
-Horizontal Asymptote: Consider the behavior as x approaches -∞.
-As x -> -∞, 2x -> -∞.
-As 2x -> -∞, e²ˣ -> 0.
-As e²ˣ -> 0, 2e²ˣ -> 2 * 0 = 0.
-As 2e²ˣ -> 0, y = 2e²ˣ - 4 -> 0 - 4 = -4.
-Horizontal Asymptote: y = -4
-
-y-intercept (Set x = 0):
-y = 2e²*(0) - 4
+Horizontal Asymptote: y = -4 (as x -> -∞)
+y-intercept (x=0):
+y = 2e²(0) - 4
 y = 2e⁰ - 4
-Calculate e⁰: e⁰ = 1
-y = 2 * 1 - 4
-Calculate 2 * 1: 2
-y = 2 - 4
-Calculate 2 - 4: -2
+y = 2(1) - 4
 y = -2
-y-intercept: (0, -2)
-
-x-intercept (Set y = 0):
+x-intercept (y=0):
 0 = 2e²ˣ - 4
-Add 4 to both sides:
-0 + 4 = 2e²ˣ - 4 + 4
 4 = 2e²ˣ
-Divide both sides by 2:
-4 / 2 = 2e²ˣ / 2
 2 = e²ˣ
-Convert from exponential form to logarithm form: e^a = b is equivalent to ln(b) = a
-Here a = 2x, b = 2.
+ln(2) = ln(e²ˣ)
 ln(2) = 2x
-Divide both sides by 2:
-ln(2) / 2 = 2x / 2
-ln(2) / 2 = x
-x-intercept: (ln(2)/2, 0)
+x = ln(2)/2
                     </pre></div>
                 </div>
             </div>
@@ -503,19 +310,10 @@ x-intercept: (ln(2)/2, 0)
                     <div class="problem-statement">5³ˣ⁻⁹ = 1/125 [2 marks]</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Equation: 5³ˣ⁻⁹ = 1/125
-Rewrite 125 as a power of 5: 125 = 5 * 5 * 5 = 5³
-Rewrite 1/125 using negative exponent rule (1/aⁿ = a⁻ⁿ):
-1/125 = 1 / 5³ = 5⁻³
-The equation becomes:
 5³ˣ⁻⁹ = 5⁻³
-Since the bases are equal (both are 5), the exponents must be equal:
 3x - 9 = -3
-Add 9 to both sides of the equation:
-3x - 9 + 9 = -3 + 9
+3x = -3 + 9
 3x = 6
-Divide both sides by 3:
-3x / 3 = 6 / 3
 x = 2
                     </pre></div>
                 </div>
@@ -523,12 +321,7 @@ x = 2
                     <div class="problem-statement">log₄ x = 3 [2 marks]</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Equation: log₄ x = 3
-Convert the logarithmic equation to exponential form.
-log_b(a) = c is equivalent to b^c = a.
-Here, the base b = 4, the argument a = x, and the value c = 3.
-So, x = 4³
-Calculate 4³: 4 * 4 * 4 = 16 * 4 = 64
+x = 4³
 x = 64
                     </pre></div>
                 </div>
@@ -536,26 +329,12 @@ x = 64
                     <div class="problem-statement">log₇(7x - 5) = 2 log₇ 4 [3 marks]</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Equation: log₇(7x - 5) = 2 log₇ 4
-Use the logarithm property c log_b(a) = log_b(a^c) on the right side:
-2 log₇ 4 = log₇(4²)
-Calculate 4²: 4 * 4 = 16
-2 log₇ 4 = log₇ 16
-The equation becomes:
-log₇(7x - 5) = log₇ 16
-Since the bases are equal (both are 7), the arguments must be equal:
+log₇(7x - 5) = log₇(4²)
 7x - 5 = 16
-Add 5 to both sides:
-7x - 5 + 5 = 16 + 5
+7x = 16 + 5
 7x = 21
-Divide both sides by 7:
-7x / 7 = 21 / 7
 x = 3
-Check the domain of the original logarithm log₇(7x - 5): The argument (7x - 5) must be > 0.
-Substitute x = 3: 7 * (3) - 5
-Calculate 7 * 3: 21
-21 - 5 = 16
-16 > 0. The solution x=3 is valid.
+Check domain: 7(3) - 5 = 16 > 0. Valid.
                     </pre></div>
                 </div>
             </div>
@@ -581,14 +360,8 @@ log₁₀ ( a / (bx²) ) = -0.52 - 2 log₁₀ x
                 <div class="problem-statement">(a.) Find the value of e⁻³.³ correct to 2 significant figures. [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Value to calculate: e⁻³.³
-Using a calculator: e⁻³.³ ≈ 0.03687709...
-Identify the first significant figure: It is the first non-zero digit, which is 3.
-Identify the second significant figure: It is the digit after the first significant figure, which is 6.
-Identify the third digit after the decimal point: 8. This digit is used for rounding the second significant figure.
-Since the third digit (8) is 5 or greater, round up the second significant figure (6).
-6 rounds up to 7.
-The number rounded to 2 significant figures is 0.037.
+e⁻³.³ ≈ 0.036877...
+Rounding to 2 significant figures: 0.037
                  </pre></div>
             </div>
 
@@ -596,25 +369,9 @@ The number rounded to 2 significant figures is 0.037.
                 <div class="problem-statement">(b.) Express as a single fraction: (3x+2)/3 + (x-1)/5 [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Expression: (3x+2)/3 + (x-1)/5
-To add fractions, find a common denominator.
-The denominators are 3 and 5.
-The least common multiple (LCM) of 3 and 5 is 15.
-Rewrite the first fraction with denominator 15: Multiply (3x+2)/3 by 5/5.
-((3x+2) / 3) * (5 / 5) = (5 * (3x+2)) / (3 * 5) = (15x + 10) / 15
-Rewrite the second fraction with denominator 15: Multiply (x-1)/5 by 3/3.
-((x-1) / 5) * (3 / 3) = (3 * (x-1)) / (5 * 3) = (3x - 3) / 15
-Now add the fractions with the common denominator:
-(15x + 10) / 15 + (3x - 3) / 15
-Add the numerators and keep the common denominator:
-( (15x + 10) + (3x - 3) ) / 15
-Remove parentheses in the numerator:
-(15x + 10 + 3x - 3) / 15
-Group like terms in the numerator:
-(15x + 3x) + (10 - 3) / 15
-Combine like terms:
-(18x) + (7) / 15
-Result: (18x + 7) / 15
+= (5 * (3x + 2) - 3 * x) / (3 * 5)
+= (15x + 10 - 3x) / 15
+= (12x + 10) / 15
                  </pre></div>
             </div>
 
@@ -622,23 +379,11 @@ Result: (18x + 7) / 15
                 <div class="problem-statement">(c.) Solve |3x – 5| ≤ 4 and graph the solution on a number line. [3 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Inequality: |3x - 5| ≤ 4
-The inequality |A| ≤ B is equivalent to -B ≤ A ≤ B.
-Here, A = 3x - 5 and B = 4.
-So, -4 ≤ 3x - 5 ≤ 4
-This is a compound inequality. Add 5 to all parts:
+-4 ≤ 3x - 5 ≤ 4
 -4 + 5 ≤ 3x - 5 + 5 ≤ 4 + 5
-Calculate -4 + 5: 1
-Calculate -5 + 5: 0
-Calculate 4 + 5: 9
-1 ≤ 3x + 0 ≤ 9
 1 ≤ 3x ≤ 9
-Divide all parts by 3:
-1 / 3 ≤ 3x / 3 ≤ 9 / 3
-Calculate 3x / 3: x
-Calculate 9 / 3: 3
+1/3 ≤ 3x / 3 ≤ 9 / 3
 1/3 ≤ x ≤ 3
-The solution is the set of x values between 1/3 and 3, inclusive.
 Solution interval: [1/3, 3]
                  </pre></div>
             </div>
@@ -647,27 +392,9 @@ Solution interval: [1/3, 3]
                 <div class="problem-statement">(d.) Write 3√7 / (2√3 - √5) with a rational denominator. [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Expression: 3√7 / (2√3 - √5)
-To rationalize the denominator (2√3 - √5), multiply the numerator and denominator by its conjugate, which is (2√3 + √5).
 = (3√7 / (2√3 - √5)) * ((2√3 + √5) / (2√3 + √5))
-
-Multiply the numerators:
-Numerator = 3√7 * (2√3 + √5)
-Distribute 3√7: (3√7 * 2√3) + (3√7 * √5)
-Calculate 3√7 * 2√3: (3 * 2) * (√7 * √3) = 6 * √21 = 6√21
-Calculate 3√7 * √5: 3 * (√7 * √5) = 3 * √35 = 3√35
-Numerator = 6√21 + 3√35
-
-Multiply the denominators (using (a-b)(a+b) = a²-b²):
-Denominator = (2√3 - √5) * (2√3 + √5)
-Denominator = (2√3)² - (√5)²
-Calculate (2√3)²: (2 * √3)² = 2² * (√3)² = 4 * 3 = 12
-Calculate (√5)²: 5
-Denominator = 12 - 5
-Calculate 12 - 5: 7
-Denominator = 7
-
-Combine the numerator and denominator:
+Numerator: 3√7 * (2√3 + √5) = 3√7 * 2√3 + 3√7 * √5 = 6√21 + 3√35
+Denominator: (2√3 - √5)(2√3 + √5) = (2√3)² - (√5)² = 12 - 5 = 7
 Result: (6√21 + 3√35) / 7
                  </pre></div>
             </div>
@@ -676,26 +403,9 @@ Result: (6√21 + 3√35) / 7
                 <div class="problem-statement">(e.) Factorise 54x³ - 6x completely. [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Expression: 54x³ - 6x
-Find the greatest common factor (GCF) of 54x³ and -6x.
-Factors of 54x³: 1, 2, 3, 6, 9, 18, 27, 54, x, x², x³ and their products with coefficients.
-Factors of -6x: 1, 2, 3, 6, x and their negative counterparts and products.
-Common factors include 6 and x.
-GCF = 6x
-Factor out 6x from the expression:
-54x³ - 6x = 6x * (54x³ / 6x - 6x / 6x)
-Calculate 54x³ / 6x: (54/6) * (x³/x) = 9 * x² = 9x²
-Calculate 6x / 6x: 1
-54x³ - 6x = 6x * (9x² - 1)
-Look at the expression inside the parenthesis: 9x² - 1
-This is a difference of squares: a² - b², where a² = 9x² and b² = 1.
-Find a: a = √9x² = √9 * √x² = 3 * x = 3x
-Find b: b = √1 = 1
-The difference of squares factors as (a - b)(a + b).
-9x² - 1 = (3x - 1)(3x + 1)
-Substitute this back into the factored expression:
-54x³ - 6x = 6x * (3x - 1)(3x + 1)
-Result: 6x(3x - 1)(3x + 1)
+= 6x(9x² - 1)
+= 6x((3x)² - 1²)
+= 6x(3x - 1)(3x + 1)
                  </pre></div>
             </div>
         </section>
@@ -706,29 +416,15 @@ Result: 6x(3x - 1)(3x + 1)
                 <div class="problem-statement">(a.) Calculate the area of the shaded region. [3 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-The shaded region is a sector of an annulus (ring).
-Outer diameter = 28 cm. Outer radius R = 28 / 2 = 14 cm.
-Inner diameter = 8 cm. Inner radius r = 8 / 2 = 4 cm.
-Central angle = 80°.
-The area of a sector is (angle / 360°) * π * radius².
-Fraction of the circle = 80° / 360°
-Simplify the fraction: 80/360 = 8/36 = 2/9
-Area of the outer sector = (2/9) * π * R²
-Area of the outer sector = (2/9) * π * (14)²
-Calculate 14²: 14 * 14 = 196
-Area of the outer sector = (2/9) * 196π = 392π / 9 cm².
-Area of the inner sector = (2/9) * π * r²
-Area of the inner sector = (2/9) * π * (4)²
-Calculate 4²: 4 * 4 = 16
-Area of the inner sector = (2/9) * 16π = 32π / 9 cm².
-Area of the shaded region = Area of the outer sector - Area of the inner sector
-Area_shaded = (392π / 9) - (32π / 9)
-Subtract the numerators over the common denominator:
-Area_shaded = (392π - 32π) / 9
-Calculate 392π - 32π: (392 - 32)π = 360π
-Area_shaded = 360π / 9
-Calculate 360π / 9: 360 / 9 * π = 40π
-Area_shaded = 40π cm².
+Outer Diameter = 28, Outer Radius R = 14
+Inner Diameter = 8, Inner Radius r = 4
+Angle = 80°
+Fraction of circle = 80 / 360 = 2 / 9
+Area = (2/9) * (πR² - πr²)
+Area = (2/9) * (π(14²) - π(4²))
+Area = (2/9) * (196π - 16π)
+Area = (2/9) * 180π
+Area = 40π
                  </pre></div>
             </div>
 
@@ -736,36 +432,19 @@ Area_shaded = 40π cm².
                 <div class="problem-statement">(b.) Calculate the surface area for the following solid figure, including the end. The radius of the base is 12 cm and the perpendicular height is 16 cm. [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-The solid figure is a cone.
-Radius of the base r = 12 cm.
-Perpendicular height h = 16 cm.
-Surface area of a cone (including base) = Area of Base + Lateral Surface Area.
-Area of Base (circle) = π * r²
-Area of Base = π * (12)²
-Calculate 12²: 12 * 12 = 144
-Area of Base = 144π cm².
-
-Lateral Surface Area = π * r * L, where L is the slant height.
-Find the slant height L using the Pythagorean theorem: L² = r² + h²
-L² = (12)² + (16)²
-Calculate 12²: 144
-Calculate 16²: 16 * 16 = 256
+Radius r = 12
+Height h = 16
+Slant Height L: L² = r² + h²
+L² = 12² + 16²
 L² = 144 + 256
-Calculate 144 + 256: 400
 L² = 400
-Take the square root of both sides: L = √400
-Calculate √400: 20
-L = 20 cm.
-
-Lateral Surface Area = π * r * L
-Lateral Surface Area = π * 12 * 20
-Calculate 12 * 20: 240
-Lateral Surface Area = 240π cm².
-
-Total Surface Area = Area of Base + Lateral Surface Area
+L = √400
+L = 20
+Base Area = πr² = π(12)² = 144π
+Lateral Area = πrL = π(12)(20) = 240π
+Total Surface Area = Base Area + Lateral Area
 Total Surface Area = 144π + 240π
-Calculate 144π + 240π: (144 + 240)π = 384π
-Total Surface Area = 384π cm².
+Total Surface Area = 384π
                  </pre></div>
             </div>
         </section>
@@ -776,31 +455,17 @@ Total Surface Area = 384π cm².
                 <div class="problem-statement">(a.) ABCD is a rhombus. If ∠BDC = 35°, what is the value of x = ∠BAC? [1 mark]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Given: ABCD is a rhombus. ∠BDC = 35°. Find x = ∠BAC.
-Properties of a rhombus:
-- Opposite sides are parallel (AB || DC).
-- Diagonals bisect the angles.
-- Diagonals intersect at a right angle.
-
-Since AB || DC, and BD is a transversal line, the alternate interior angles are equal.
-∠ABD = ∠BDC
-Given ∠BDC = 35°.
-So, ∠ABD = 35°.
-
-The diagonals of a rhombus, AC and BD, intersect at a point (let's call it O) at a right angle.
-∠AOB = 90°.
-
-Consider the triangle ABO. The sum of angles in a triangle is 180°.
-∠BAO + ∠ABO + ∠AOB = 180°
-We are given x = ∠BAC, which is the same as ∠BAO in triangle ABO.
-Substitute the known values into the triangle angle sum equation:
+Rhombus properties: Diagonals are perpendicular bisectors, opposite sides parallel.
+AB || DC (opposite sides of rhombus)
+BD is transversal.
+∠ABD = ∠BDC (Alternate Interior Angles)
+∠ABD = 35°
+Diagonals intersect at O. ∠AOB = 90°.
+In ΔAOB: ∠BAO + ∠ABO + ∠AOB = 180° (Angles in a triangle)
 x + 35° + 90° = 180°
-Calculate 35° + 90°: 125°
 x + 125° = 180°
-Subtract 125° from both sides:
-x + 125° - 125° = 180° - 125°
+x = 180° - 125°
 x = 55°
-The value of x = ∠BAC is 55°.
                  </pre></div>
             </div>
 
@@ -808,49 +473,14 @@ The value of x = ∠BAC is 55°.
                 <div class="problem-statement">(b.) ABCDEF is a regular hexagon. Find the size of ∠GBC. G is on the extension of CD. [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Regular Hexagon properties: 6 equal sides and 6 equal interior angles.
-Number of sides n = 6.
-Size of each interior angle = (n-2) * 180° / n
-Interior angle = (6 - 2) * 180° / 6
-Interior angle = 4 * 180° / 6
-Interior angle = 720° / 6
-Interior angle = 120°.
-So, ∠BCD = 120°.
-
-Consider triangle BCD. BC and CD are adjacent sides of the regular hexagon, so BC = CD.
-Triangle BCD is an isosceles triangle with base BD.
-The base angles are equal: ∠CBD = ∠CDB.
-The sum of angles in triangle BCD is 180°.
-∠BCD + ∠CBD + ∠CDB = 180°
-120° + ∠CBD + ∠CBD = 180°
-120° + 2 * ∠CBD = 180°
-Subtract 120° from both sides:
-2 * ∠CBD = 180° - 120°
-2 * ∠CBD = 60°
-Divide by 2:
-∠CBD = 60° / 2
-∠CBD = 30°.
-
-G is on the extension of CD past D. This means C, D, G are collinear in that order. The line segment CD is extended beyond D to point G.
-The angle ∠GBC is the angle formed by the line segments GB and BC.
-∠GBC = ∠CBD + ∠DBG
-We know ∠CBD = 30°.
-∠GBC = 30° + ∠DBG.
-The value of ∠GBC depends on the exact position of point G on the extended line. For G to be strictly on the extension past D, ∠DBG > 0.
-However, the question asks for "the size" of ∠GBC, implying a unique value, and it's a 2-mark question, suggesting a simple geometrical property or a common intended interpretation in exams of this type.
-Often, in such questions, there might be an implied condition or the intended answer comes from a special case (like G being infinitely far, or some other constraint not explicitly stated).
-Given the geometric inconsistency of a single fixed value for a general point G on the extension, and the calculated angle ∠CBD = 30°, it is highly probable that the intended answer is directly related to 30°, possibly 30° itself, despite the wording "extension". If G coincides with D, ∠GBC = ∠DBC = 30°. While the wording "extension" implies G is distinct from D, test questions sometimes have minor ambiguities or rely on common patterns.
-
-Assuming the most likely intended simple answer related to the angles calculated:
-If G is on the extension of CD, the angle ∠CDB = 30°. The line CDG is a straight line. The angle between BD and the line CDG is ∠BDG = 180° - ∠CDB = 180° - 30° = 150°.
-The angle ∠BCD = 120°. The exterior angle at D along the extension CDG is 180 - 120 = 60? No, that's at vertex D using adjacent sides. The angle between line BC and line CD is 120°. The angle between line BC and the *extended* line CDG is 180 - 120 = 60°.
-
-Reconsidering the possibility of 30°. If ∠GBC were 30°, then B, D, G would be collinear, which contradicts G being on the extension of CD past D unless G=D. This is a strong conflict.
-
-Let's revisit the most common interpretation when this type of question appears with limited marks and simple angles: the angle is 30°. This usually happens when the diagram might suggest G is close to D, or when the intended question was simply ∠CBD. Despite the contradiction, I will provide 30° as the likely intended answer.
-
-Answer (likely intended): 30°
-*(Note: Geometric analysis suggests ∠GBC depends on the position of G, but 30° is the angle ∠CBD, and is a common answer in similar problems possibly with subtle differences in wording or intended diagram interpretation).*
+Interior angle ∠BCD = (6-2)*180 / 6 = 4*180 / 6 = 120°
+ΔBCD is isosceles with BC = CD.
+∠CBD = ∠CDB = (180° - 120°) / 2 = 60° / 2 = 30°
+G is on the extension of CD.
+∠GBC = ∠CBD + ∠DBG = 30° + ∠DBG.
+(Note: ∠DBG depends on position of G. If G=D, ∠DBG=0 and ∠GBC=30°.
+ Assuming the intended simple answer):
+Answer: 30°
                  </pre></div>
             </div>
 
@@ -860,91 +490,33 @@ Answer (likely intended): 30°
                     <div class="problem-statement">Show that ADE is an isosceles triangle. [2 marks]</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Given: ΔABC is isosceles with AB = AC.
-Given: DE is parallel to BC (DE || BC).
-
-In ΔABC, since AB = AC, the angles opposite these sides are equal:
-∠ABC = ∠ACB (Property of isosceles triangles)
-
-Consider the parallel lines DE and BC intersected by the transversal AB.
-The corresponding angles are equal: ∠ADE = ∠ABC.
-
-Consider the parallel lines DE and BC intersected by the transversal AC.
-The corresponding angles are equal: ∠AED = ∠ACB.
-
-We have the relationships:
-∠ADE = ∠ABC
-∠AED = ∠ACB
-And we know ∠ABC = ∠ACB.
-By transitive property of equality (if A=B and B=C, then A=C):
-Since ∠ADE = ∠ABC and ∠ABC = ∠ACB, then ∠ADE = ∠ACB.
-Since ∠ADE = ∠ACB and ∠AED = ∠ACB, then ∠ADE = ∠AED.
-
-In ΔADE, the angles ∠ADE and ∠AED are equal.
-By the converse of the isosceles triangle property (if two angles in a triangle are equal, the sides opposite those angles are equal):
-The side opposite ∠AED is AD.
-The side opposite ∠ADE is AE.
-So, AD = AE.
-
-Since AD = AE, ΔADE is an isosceles triangle by definition.
+AB = AC => ∠ABC = ∠ACB (Base angles of isosceles ΔABC)
+DE || BC => ∠ADE = ∠ABC (Corresponding angles)
+DE || BC => ∠AED = ∠ACB (Corresponding angles)
+Since ∠ABC = ∠ACB, then ∠ADE = ∠AED.
+In ΔADE, ∠ADE = ∠AED => AD = AE (Sides opposite equal angles)
+ΔADE is isosceles.
                     </pre></div>
                 </div>
                 <div class="question-subpart">
                     <div class="problem-statement">Show that DB = EC. [1 mark]</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Given: AB = AC
-From part (i), we showed AD = AE.
-
-Consider the lengths of the segments on the sides AB and AC.
-AB is the sum of AD and DB: AB = AD + DB.
-AC is the sum of AE and EC: AC = AE + EC.
-
-Substitute these into the given AB = AC:
-AD + DB = AE + EC
-
-From part (i), we know AD = AE.
-Substitute AD for AE (or AE for AD):
-AD + DB = AD + EC
-Subtract AD from both sides:
-AD + DB - AD = AD + EC - AD
+AB = AC (Given)
+AD = AE (From i)
+AB - AD = AC - AE
 DB = EC
-
-Therefore, DB = EC.
                     </pre></div>
                 </div>
                 <div class="question-subpart">
                     <div class="problem-statement">Show that the triangles DBC and ECB are congruent. [3 marks]</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Consider ΔDBC and ΔECB.
-We need to show these two triangles are congruent. We can use congruence criteria like SSS, SAS, ASA, AAS, RHS.
-
-Let's look for equal sides and angles in ΔDBC and ΔECB:
-1. Side BC: BC is a side in ΔDBC, and BC is also a side in ΔECB. BC is a common side to both triangles.
-   BC = BC (Common side)
-
-2. Side DB and EC: From part (ii), we have shown that DB = EC.
-   DB = EC (Proven in part ii)
-
-3. Angle between DB and BC, and Angle between EC and BC:
-   Consider ∠DBC. Since D is on the line segment AB, ∠DBC is the same angle as ∠ABC.
-   ∠DBC = ∠ABC.
-   Consider ∠ECB. Since E is on the line segment AC, ∠ECB is the same angle as ∠ACB.
-   ∠ECB = ∠ACB.
-
-   From part (i), we know that ΔABC is isosceles with AB = AC, which implies ∠ABC = ∠ACB.
-   Since ∠DBC = ∠ABC and ∠ECB = ∠ACB and ∠ABC = ∠ACB, by transitive property:
-   ∠DBC = ∠ECB. (Angles between the two sides we've identified)
-
-We have found two sides and the included angle that are equal in both triangles:
-Side DB = Side EC
-Side BC = Side BC
-Included Angle ∠DBC = Included Angle ∠ECB
-
-According to the Side-Angle-Side (SAS) congruence criterion, if two sides and the included angle of one triangle are equal to two sides and the included angle of another triangle, then the triangles are congruent.
-
-Thus, ΔDBC is congruent to ΔECB (SAS).
+In ΔDBC and ΔECB:
+BC = BC (Common side)
+DB = EC (Proven in ii)
+∠DBC = ∠ECB (Since ∠ABC = ∠ACB and D is on AB, E is on AC)
+ΔDBC ≅ ΔECB (SAS congruence criterion)
                     </pre></div>
                 </div>
             </div>
@@ -953,27 +525,15 @@ Thus, ΔDBC is congruent to ΔECB (SAS).
                 <div class="problem-statement">(d.) Find the volume and surface area of a sphere with a radius of 9 cm. [4 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Radius of the sphere r = 9 cm.
-
-Formula for the volume of a sphere: V = (4/3) * π * r³
-Substitute the radius value:
-V = (4/3) * π * (9 cm)³
-Calculate (9 cm)³: 9 cm * 9 cm * 9 cm = 81 cm² * 9 cm = 729 cm³
-V = (4/3) * π * (729 cm³)
-Multiply 4/3 by 729: (4 * 729) / 3
-Calculate 4 * 729: 2916
-Calculate 2916 / 3: 972
-V = 972 * π cm³
-V = 972π cm³.
-
-Formula for the surface area of a sphere: A = 4 * π * r²
-Substitute the radius value:
-A = 4 * π * (9 cm)²
-Calculate (9 cm)²: 9 cm * 9 cm = 81 cm²
-A = 4 * π * (81 cm²)
-Calculate 4 * 81: 324
-A = 324 * π cm²
-A = 324π cm².
+Radius r = 9
+Volume V = (4/3)πr³
+V = (4/3)π(9)³
+V = (4/3)π(729)
+V = 972π
+Surface Area A = 4πr²
+A = 4π(9)²
+A = 4π(81)
+A = 324π
                  </pre></div>
             </div>
         </section>
@@ -986,78 +546,20 @@ A = 324π cm².
                     <div class="problem-statement">Find the value of x . [2 marks]</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-The diagram shows a right-angled triangle.
-Angle = 57°
-Side opposite the angle = x
-Side adjacent to the angle = 13
-The trigonometric function relating opposite and adjacent sides is tangent (tan).
-tan(angle) = Opposite / Adjacent
+Angle = 57°, Opposite = x, Adjacent = 13
 tan(57°) = x / 13
-To solve for x, multiply both sides by 13:
-tan(57°) * 13 = (x / 13) * 13
-13 * tan(57°) = x
 x = 13 * tan(57°)
-Using a calculator for tan(57°): tan(57°) ≈ 1.53986496...
-x ≈ 13 * 1.53986496...
-Perform the multiplication:
-  1.53986496
-x         13
-------------
-  4.61959488  (1.53986496 * 3)
- 15.3986496   (1.53986496 * 10)
-------------
- 20.01824448
-x ≈ 20.018244...
-Rounding to 2 decimal places (as is common for lengths in geometry unless specified):
-x ≈ 20.02
                      </pre></div>
                 </div>
                  <div class="question-subpart">
                     <div class="problem-statement">Find the value of θ in degrees and minutes. [2 marks]</div>
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-The diagram shows a right-angled triangle.
-Angle = θ
-Side opposite the angle = 25
-Side hypotenuse = 32
-The trigonometric function relating opposite side and hypotenuse is sine (sin).
-sin(angle) = Opposite / Hypotenuse
+Opposite = 25, Hypotenuse = 32
 sin(θ) = 25 / 32
-To find θ, take the inverse sine (arcsin) of both sides:
 θ = arcsin(25 / 32)
-Calculate the decimal value of the fraction: 25 / 32
-   0.78125
-32|25.00000
-  -22 4
-  -----
-    2 60
-   -2 56
-   -----
-       40
-      -32
-      ---
-       80
-      -64
-      ---
-       160
-      -160
-      ----
-         0
-25 / 32 = 0.78125
-θ = arcsin(0.78125)
-Using a calculator for arcsin in degrees: θ ≈ 51.360040... degrees.
-The value is in degrees. Convert the decimal part to minutes.
-1 degree = 60 minutes.
-Decimal part = 0.360040...
-Minutes = 0.360040... * 60
-Calculate 0.360040... * 60:
-  0.360040
-x       60
-----------
- 21.602400
-Minutes ≈ 21.6024... minutes.
-Round the minutes to the nearest whole number or one decimal place as required (whole number is common for minutes). Let's round to nearest minute: 22 minutes.
-So, θ ≈ 51 degrees and 22 minutes.
+θ ≈ 51.3600°
+Minutes = 0.3600 * 60 ≈ 21.6 minutes
 θ ≈ 51° 22'
                      </pre></div>
                 </div>
@@ -1067,112 +569,34 @@ So, θ ≈ 51 degrees and 22 minutes.
                 <div class="problem-statement">(b.) Find a value of x such that: cos (22+ 3x) ° = sin (x - 28)°. [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Equation: cos(22 + 3x)° = sin(x - 28)°
-Use the complementary angle identity: sin(A) = cos(90° - A).
-Let A = (x - 28)°.
-sin(x - 28)° = cos(90° - (x - 28)°)
-Remove parentheses: -(x - 28) = -x + 28
-sin(x - 28)° = cos(90° - x + 28)°
-Calculate 90 + 28: 118
-sin(x - 28)° = cos(118 - x)°
-Substitute this back into the original equation:
+cos(22 + 3x)° = cos(90 - (x - 28))°
 cos(22 + 3x)° = cos(118 - x)°
-For cos A = cos B, the general solutions are A = B + 360n or A = -B + 360n, where n is an integer.
-Case 1: A = B + 360n
-22 + 3x = (118 - x) + 360n
-22 + 3x = 118 - x + 360n
-Add x to both sides:
-22 + 3x + x = 118 - x + x + 360n
-22 + 4x = 118 + 360n
-Subtract 22 from both sides:
-22 + 4x - 22 = 118 + 360n - 22
+Case 1: 22 + 3x = 118 - x + 360n
 4x = 96 + 360n
-Divide both sides by 4:
-4x / 4 = (96 + 360n) / 4
-x = 96/4 + 360n/4
-Calculate 96/4: 24
-Calculate 360/4: 90
 x = 24 + 90n
-
-Case 2: A = -B + 360n
-22 + 3x = -(118 - x) + 360n
-Remove parentheses: -(118 - x) = -118 + x
+Case 2: 22 + 3x = -(118 - x) + 360n
 22 + 3x = -118 + x + 360n
-Subtract x from both sides:
-22 + 3x - x = -118 + x - x + 360n
-22 + 2x = -118 + 360n
-Subtract 22 from both sides:
-22 + 2x - 22 = -118 + 360n - 22
 2x = -140 + 360n
-Divide both sides by 2:
-2x / 2 = (-140 + 360n) / 2
-x = -140/2 + 360n/2
-Calculate -140/2: -70
-Calculate 360/2: 180
 x = -70 + 180n
-
-The question asks for "a value" of x. We can choose any integer value for n in either formula.
-Let's choose n = 0 in the first case (x = 24 + 90n):
-x = 24 + 90 * (0)
-Calculate 90 * 0: 0
-x = 24 + 0
-Calculate 24 + 0: 24
-x = 24
-This is one possible value for x.
-Let's choose n = 1 in the second case (x = -70 + 180n):
-x = -70 + 180 * (1)
-Calculate 180 * 1: 180
-x = -70 + 180
-Calculate -70 + 180: 110
-x = 110
-This is another possible value for x.
-We just need to provide one value.
-A value of x is 24.
+A value of x: 24 (for n=0 in Case 1)
                  </pre></div>
             </div>
 
              <div class="question-part">
-                <div class="problem-statement">(c.)</div> <!-- This part 'c' corresponds to the diagram with angles 94, 65, side 16 -->
+                <div class="problem-statement">(c.)</div> <!-- This part 'c' seems to be missing from the original problem image, but there's mark allocation and description -->
                  <div class="question-subpart">
                     <div class="problem-statement">Find the length of BC. [2 marks]</div>
                     <!-- Calculations for 8c.i from image -->
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-The diagram shows a triangle with angles 94° and 65°, and a side of length 16 cm opposite the 65° angle. We want to find the length of the side opposite the 94° angle (let's call it BC based on the label in the image). Let's assume the vertices are labeled as shown in the image triangle. Let the angle opposite the side 16 be C (65°), the angle 94° be A, and the remaining angle be B. So we want to find side a (BC).
-Using the Sine Rule: a / sin(A) = b / sin(B) = c / sin(C)
-We have angle A = 94°, angle C = 65°, side c (opposite C) = 16. We want to find side a (opposite A).
-First, find the third angle (Angle B): Sum of angles in a triangle is 180°.
-Angle B = 180° - Angle A - Angle C
-Angle B = 180° - 94° - 65°
-Calculate 180 - 94: 86
-Angle B = 86° - 65°
-Calculate 86 - 65: 21
-Angle B = 21°.
-
-Now apply the Sine Rule using sides 'a' and 'c', and angles A and C:
-a / sin(A) = c / sin(C)
-Let a = BC, A = 94°, c = 16, C = 65°.
+Using Sine Rule in the top triangle (assume A, B, C are vertices as per diagram):
+Angles: 94°, 65°, 180 - 94 - 65 = 21°
+Side opposite 94° is BC. Side opposite 65° is 16.
 BC / sin(94°) = 16 / sin(65°)
-To solve for BC, multiply both sides by sin(94°):
 BC = (16 * sin(94°)) / sin(65°)
-Using a calculator:
-sin(94°) ≈ 0.997564...
-sin(65°) ≈ 0.906307...
-BC ≈ (16 * 0.997564...) / 0.906307...
-Calculate 16 * 0.997564... :
-  0.997564
-x       16
-----------
-  5.985384 (0.997564 * 6)
-  9.97564  (0.997564 * 10)
-----------
- 15.961024
-Let's use a few more digits for calculation accuracy: 15.9609984...
-BC ≈ 15.9609984... / 0.906307...
-Perform the division:
-≈ 17.6112...
-Rounding to 2 decimal places:
-BC ≈ 17.61 cm.
+BC ≈ (16 * 0.99756) / 0.90631
+BC ≈ 15.9609 / 0.90631
+BC ≈ 17.61
                     </pre></div>
                 </div>
                  <div class="question-subpart">
@@ -1180,26 +604,12 @@ BC ≈ 17.61 cm.
                     <!-- Calculations for 8c.ii from image -->
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-The diagram shows a parallelogram with adjacent sides of length 9 cm and 14 cm, and an angle between them of 67°.
-The area of a parallelogram is given by the formula: Area = side1 * side2 * sin(angle between sides).
-Let side1 = 9 cm, side2 = 14 cm, angle = 67°.
-Area = 9 cm * 14 cm * sin(67°)
-Calculate 9 * 14: 126
-Area = 126 * sin(67°) cm²
-Using a calculator for sin(67°): sin(67°) ≈ 0.9205048...
-Area ≈ 126 * 0.9205048...
-Perform the multiplication:
-  0.9205048
-x       126
-----------
-  5.5230288  (0.9205048 * 6)
- 18.410096   (0.9205048 * 20)
- 92.05048    (0.9205048 * 100)
-----------
-115.9836048
-Area ≈ 115.9836...
-Rounding to 2 decimal places:
-Area ≈ 115.98 cm².
+Sides are 9 and 14. Angle is 67°.
+Area = side1 * side2 * sin(angle)
+Area = 9 * 14 * sin(67°)
+Area = 126 * sin(67°)
+Area ≈ 126 * 0.9205
+Area ≈ 115.98
                     </pre></div>
                 </div>
             </div>
@@ -1208,24 +618,10 @@ Area ≈ 115.98 cm².
                 <div class="problem-statement">(d.) Write an exact value for cos 210°. [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-We need the exact value of cos(210°).
-Identify the quadrant for 210°.
-0° to 90°: Quadrant 1
-90° to 180°: Quadrant 2
-180° to 270°: Quadrant 3
-270° to 360°: Quadrant 4
-210° is between 180° and 270°, so it is in the third quadrant.
-Find the reference angle (the acute angle made with the x-axis).
-For an angle θ in Quadrant 3, the reference angle is θ - 180°.
-Reference angle = 210° - 180°
-Calculate 210 - 180: 30.
-Reference angle = 30°.
-Determine the sign of cosine in the third quadrant. Cosine is negative in Quadrants 2 and 3.
-In Quadrant 3, cos(θ) = -cos(reference angle).
-cos(210°) = -cos(30°)
-Recall the exact value of cos(30°) from standard trigonometric values for special angles: cos(30°) = √3 / 2.
-cos(210°) = - (√3 / 2).
-Result: -√3 / 2.
+210° is in the 3rd quadrant.
+Reference angle = 210° - 180° = 30°
+cos(210°) = -cos(30°) (Cosine is negative in Q3)
+cos(210°) = -√3 / 2
                  </pre></div>
             </div>
 
@@ -1233,44 +629,16 @@ Result: -√3 / 2.
                 <div class="problem-statement">(e.) Solve for 0≤θ≤360° : 2 sin² θ − 1 = 0. [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Equation: 2 sin² θ - 1 = 0
-Isolate sin² θ:
-Add 1 to both sides:
-2 sin² θ - 1 + 1 = 0 + 1
 2 sin² θ = 1
-Divide both sides by 2:
-2 sin² θ / 2 = 1 / 2
 sin² θ = 1/2
-Take the square root of both sides:
-√(sin² θ) = ±√(1/2)
-sin θ = ± (√1 / √2)
-sin θ = ± (1 / √2)
-Rationalize the denominator for 1/√2: Multiply numerator and denominator by √2.
-(1 / √2) * (√2 / √2) = (1 * √2) / (√2 * √2) = √2 / 2
-So, sin θ = ±√2 / 2
-
-We need to find the angles θ in the range 0° ≤ θ ≤ 360° where sin θ = √2 / 2 or sin θ = -√2 / 2.
-Consider the reference angle where sin(ref) = √2 / 2. This is a standard trigonometric value for 45°.
-Reference angle = 45°.
-
-Case 1: sin θ = √2 / 2 (Sine is positive)
-Sine is positive in the first and second quadrants.
-Quadrant 1 solution: θ = reference angle = 45°.
-Quadrant 2 solution: θ = 180° - reference angle = 180° - 45°.
-Calculate 180 - 45: 135.
-θ = 135°.
-
-Case 2: sin θ = -√2 / 2 (Sine is negative)
-Sine is negative in the third and fourth quadrants.
-Quadrant 3 solution: θ = 180° + reference angle = 180° + 45°.
-Calculate 180 + 45: 225.
-θ = 225°.
-Quadrant 4 solution: θ = 360° - reference angle = 360° - 45°.
-Calculate 360 - 45: 315.
-θ = 315°.
-
-The solutions for θ in the range 0° ≤ θ ≤ 360° are the angles found in Case 1 and Case 2.
-Solutions: 45°, 135°, 225°, 315°.
+sin θ = ±√(1/2)
+sin θ = ±1/√2
+sin θ = ±√2 / 2
+Case 1: sin θ = √2 / 2
+θ = 45° (Q1) or θ = 180° - 45° = 135° (Q2)
+Case 2: sin θ = -√2 / 2
+θ = 180° + 45° = 225° (Q3) or θ = 360° - 45° = 315° (Q4)
+Solutions: 45°, 135°, 225°, 315°
                  </pre></div>
             </div>
         </section>
@@ -1281,27 +649,13 @@ Solutions: 45°, 135°, 225°, 315°.
                 <div class="problem-statement">(a.) The area of a circle is 33 cm². Find the area of the sector which subtends an angle of 5π/8. [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Given: Area of the circle = 33 cm².
-Given: Angle subtended by the sector θ = 5π/8 radians.
-
-The area of a sector is a fraction of the total circle's area.
-The fraction is (sector angle in radians) / (total angle in a circle in radians).
-Total angle in a circle in radians is 2π.
-Fraction = θ / (2π)
-Substitute the sector angle: Fraction = (5π/8) / (2π)
-This is a fraction division: (a/b) / c = a / (b*c) or (a/b) / (c/d) = (a/b) * (d/c).
-Here it's (5π/8) divided by (2π/1).
-Fraction = (5π / 8) * (1 / 2π)
-Multiply the numerators: 5π * 1 = 5π.
-Multiply the denominators: 8 * 2π = 16π.
-Fraction = 5π / 16π
-Cancel the common factor π in the numerator and denominator:
-Fraction = 5 / 16.
-The area of the sector = Fraction * Area of the circle.
-Area_sector = (5 / 16) * 33 cm²
-Multiply the numerator 5 by 33: 5 * 33 = 165.
-Area_sector = 165 / 16 cm².
-Result: 165 / 16 cm².
+Circle Area = 33
+Sector Angle θ = 5π/8 radians
+Area of sector = (θ / 2π) * Circle Area
+Area of sector = ((5π/8) / 2π) * 33
+Area of sector = (5π / 16π) * 33
+Area of sector = (5 / 16) * 33
+Area of sector = 165 / 16
                  </pre></div>
             </div>
 
@@ -1309,63 +663,28 @@ Result: 165 / 16 cm².
                 <div class="problem-statement">(b.) The length of arc AB is 8π cm.</div>
                  <div class="question-subpart">
                     <div class="problem-statement">Find the radius of the circle. [1 mark]</div>
-                    <!-- Assume arc AB corresponds to the 45° angle shown in the diagram -->
+                    <!-- Assume arc AB corresponds to the 45° angle in the diagram -->
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-Given: Arc length L = 8π cm.
-The diagram shows a 45° angle. Assume this is the angle subtended by the arc AB.
-Convert the angle from degrees to radians: 45° = 45 * (π / 180) radians.
-Calculate 45 / 180: Divide both by 45. 45/45=1, 180/45=4.
-45° = (1 / 4) * π radians = π/4 radians.
-Angle θ = π/4 radians.
-
-Formula for arc length: L = r * θ, where r is the radius and θ is in radians.
-Substitute the given values:
-8π cm = r * (π/4)
-To solve for r, divide both sides by (π/4). Dividing by a fraction is multiplying by its reciprocal. The reciprocal of (π/4) is (4/π).
-(8π) * (4/π) = r * (π/4) * (4/π)
-Left side: (8 * π * 4) / π = (32 * π) / π.
-Cancel the common factor π: 32.
-Right side: r * ((π/4) * (4/π)) = r * (π*4 / 4*π) = r * (4π / 4π) = r * 1 = r.
-So, r = 32 cm.
-The radius of the circle is 32 cm.
+Arc Length L = 8π
+Angle θ = 45° = 45 * (π/180) = π/4 radians
+L = rθ
+8π = r * (π/4)
+8 = r / 4
+r = 32
                     </pre></div>
                 </div>
                  <div class="question-subpart">
                     <div class="problem-statement">Find the area of the minor segment. [2 marks]</div>
-                    <!-- Using r=32 cm from part i and θ=45° from diagram -->
+                    <!-- Using r=32 and θ=45° -->
                      <button class="toggle-procedure">Show Procedure</button>
                      <div class="procedure"><pre>
-From part (i) and the diagram:
-Radius r = 32 cm.
-Angle subtended by the chord (and sector) θ = 45° = π/4 radians.
-
-The area of the minor segment is the area of the sector minus the area of the triangle formed by the center and the endpoints of the chord.
-Area of Minor Segment = Area of Sector - Area of Triangle.
-
-Formula for Area of Sector = (1/2) * r² * θ (where θ is in radians).
-Area_sector = (1/2) * (32 cm)² * (π/4)
-Calculate (32 cm)²: 32 * 32 = 1024 cm².
-Area_sector = (1/2) * 1024 * (π/4) cm²
-Calculate (1/2) * 1024: 1024 / 2 = 512.
-Area_sector = 512 * (π/4) cm²
-Calculate 512 * (π/4): 512 / 4 * π = 128 * π.
-Area_sector = 128π cm².
-
-Formula for Area of Triangle formed by two radii and a chord = (1/2) * r² * sin(θ) (where θ is the included angle in degrees or radians, but sin function needs correct mode). Let's use degrees since the angle is given in degrees in the diagram.
-Area_triangle = (1/2) * (32 cm)² * sin(45°)
-Calculate (32 cm)²: 1024 cm².
-Area_triangle = (1/2) * 1024 * sin(45°) cm²
-Calculate (1/2) * 1024: 512.
-Area_triangle = 512 * sin(45°) cm²
-The exact value of sin(45°) is √2 / 2.
-Area_triangle = 512 * (√2 / 2) cm²
-Calculate 512 * (√2 / 2): 512 / 2 * √2 = 256 * √2.
-Area_triangle = 256√2 cm².
-
-Area of Minor Segment = Area of Sector - Area of Triangle
-Area_segment = 128π cm² - 256√2 cm².
-Result: 128π - 256√2 cm².
+Radius r = 32
+Angle θ = 45° = π/4 radians
+Area of sector = (1/2)r²θ = (1/2)(32)²(π/4) = (1/2)(1024)(π/4) = 128π
+Area of triangle = (1/2)r²sin(θ) = (1/2)(32)²sin(45°) = (1/2)(1024)(√2/2) = 256√2
+Area of segment = Area of sector - Area of triangle
+Area of segment = 128π - 256√2
                     </pre></div>
                 </div>
             </div>
@@ -1374,42 +693,18 @@ Result: 128π - 256√2 cm².
                 <div class="problem-statement">(c.) The height of a cone is double its radius. Show that the surface area of the cone is given by A = πr²(1 + √5). [3 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Let r be the radius of the base of the cone.
-Let h be the perpendicular height of the cone.
-Given: The height is double the radius.
-h = 2 * r
-
-The surface area of a cone including the base is the sum of the area of the base and the lateral surface area.
-Formula for Area of Base (a circle): Area_base = π * r²
-
-Formula for Lateral Surface Area of a cone: Area_lateral = π * r * L, where L is the slant height.
-We need to find the slant height L in terms of r.
-The radius, height, and slant height form a right-angled triangle, with L as the hypotenuse.
-Using the Pythagorean theorem: L² = r² + h²
-Substitute h = 2r into the equation:
+Height h = 2r
+Slant height L: L² = r² + h²
 L² = r² + (2r)²
-Calculate (2r)²: (2 * r)² = 2² * r² = 4 * r² = 4r².
 L² = r² + 4r²
-Combine like terms: r² + 4r² = 1r² + 4r² = (1 + 4)r² = 5r².
 L² = 5r²
-Take the square root of both sides to find L:
-L = √(5r²)
-Using the property √(ab) = √a * √b:
-L = √5 * √r²
-L = √5 * r
+L = √5r²
 L = r√5
-
-Now substitute the expression for L into the lateral surface area formula:
-Area_lateral = π * r * (r√5)
-Calculate r * (r√5): r * r * √5 = r²√5.
-Area_lateral = π * r²√5.
-
-Total Surface Area A = Area_base + Area_lateral
+Surface Area A = Area of Base + Lateral Surface Area
+A = πr² + πrL
+A = πr² + πr(r√5)
 A = πr² + πr²√5
-Factor out the common term πr² from both terms:
-A = πr² * (1) + πr² * (√5)
 A = πr²(1 + √5)
-This matches the formula given in the question.
                  </pre></div>
             </div>
         </section>
