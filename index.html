@@ -564,23 +564,13 @@ Calculate 7 * 3: 21
                 <div class="problem-statement">(c.) Given log₁₀ a = 1.09 and log₁₀ b = 1.61, find the value of log₁₀ (a²/b). [2 marks]</div>
                  <button class="toggle-procedure">Show Procedure</button>
                  <div class="procedure"><pre>
-Expression to evaluate: log₁₀ (a²/b)
-Use the logarithm property log_b(M/N) = log_b(M) - log_b(N):
-log₁₀ (a²/b) = log₁₀(a²) - log₁₀(b)
-Use the logarithm property log_b(M^c) = c log_b(M):
-log₁₀(a²) = 2 log₁₀(a)
-The expression becomes:
-2 log₁₀(a) - log₁₀(b)
-Substitute the given values log₁₀ a = 1.09 and log₁₀ b = 1.61:
-2 * (1.09) - (1.61)
-Calculate 2 * 1.09: 2.18
-= 2.18 - 1.61
-Calculate 2.18 - 1.61:
-  2.18
-- 1.61
-------
-  0.57
-Result: 0.57
+log₁₀ ( a / (bx²) ) = log₁₀ a - log₁₀ (bx²)
+log₁₀ ( a / (bx²) ) = log₁₀ a - (log₁₀ b + log₁₀ x²)
+log₁₀ ( a / (bx²) ) = log₁₀ a - log₁₀ b - log₁₀ x²
+log₁₀ ( a / (bx²) ) = log₁₀ a - log₁₀ b - 2 log₁₀ x
+log₁₀ ( a / (bx²) ) = (1.09) - (1.61) - 2 log₁₀ x
+log₁₀ ( a / (bx²) ) = 1.09 - 1.61 - 2 log₁₀ x
+log₁₀ ( a / (bx²) ) = -0.52 - 2 log₁₀ x
                  </pre></div>
             </div>
         </section>
